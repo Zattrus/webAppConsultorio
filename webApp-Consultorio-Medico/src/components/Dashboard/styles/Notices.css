@@ -1,0 +1,33 @@
+.notices {
+  margin-top: 20px;
+}
+
+.notices-title {
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.notices-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.notices-table th,
+.notices-table td {
+  border: 1px solid #ccc;
+  border: none;
+  padding: 8px;
+  text-align: left;
+}
+
+.notices-table th {
+  background-color: #f0f0f0;
+}
+
+.notices-table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.notices-table tr:hover {
+  background-color: #e0e0e0;
+}

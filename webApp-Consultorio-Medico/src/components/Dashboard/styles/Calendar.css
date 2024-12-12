@@ -1,0 +1,74 @@
+.calendar {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.calendar .btn-nav {
+  color:rgb(0, 0, 0);
+  border: none !important;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.calendar .btn-nav:hover {
+  background-color:rgb(206, 206, 206);
+}
+
+.calendar .d-flex {
+  display: flex;
+}
+
+.calendar .justify-content-between {
+  justify-content: space-between;
+}
+
+.calendar .align-items-center {
+  align-items: center;
+}
+
+.calendar .text-center {
+  text-align: center;
+}
+
+.calendar .border {
+  border: 1px solid #ddd;
+}
+
+.calendar .p-2 {
+  padding: 10px;
+  padding: 0.8rem !important;
+}
+
+.calendar .bg-primary {
+  background-color: #007bff;
+}
+
+.calendar .text-white {
+  color: white;
+}
+
+.contacts {
+  margin-top: 20px;
+}
+
+.contacts h5 {
+  margin-bottom: 10px;
+}
+
+.contacts-list {
+  max-height: 200px; /* Defina a altura máxima desejada */
+  overflow-y: auto;
+}
+
+.contacts .list-group-item {
+  display: flex;
+  align-items: center;
+}
+
+.contacts .me-2 {
+  margin-right: 10px;
+}

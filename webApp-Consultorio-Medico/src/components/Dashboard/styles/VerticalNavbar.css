@@ -1,0 +1,49 @@
+.vertical-navbar {
+  width: 200px;
+  height: 100vh;
+  background-color: #343a40;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+  position: fixed;
+  /* justify-content: center; */
+}
+
+.vertical-navbar .nav {
+  display: flex;
+  flex-direction: column;
+}
+
+.vertical-navbar .nav-item {
+  color: #adb5bd;
+  padding: 10px 15px;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.vertical-navbar .nav-item:hover {
+  background-color: #495057;
+  color: white;
+}
+
+.vertical-navbar .nav-item.active {
+  background-color: #495057;
+  color: white;
+}
+
+.vertical-navbar {
+  width: 200px;
+  transition: width 0.3s;
+}
+
+.vertical-navbar.closed {
+  width: 50px;
+}
+
+.toggle-icon {
+  cursor: pointer;
+  margin-bottom: 10px;
+  font-size: 1.5rem;
+}

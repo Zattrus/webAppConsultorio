@@ -1,0 +1,17 @@
+.dashboard div {
+  height: 100px;
+  border: 1px solid #ccc;
+  background-color: #f9f9f9;
+}
+
+.calendar {
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+.calendar .day {
+  flex: 1;
+  border: 1px solid #ddd;
+  padding: 5px;
+  text-align: center;
+}
