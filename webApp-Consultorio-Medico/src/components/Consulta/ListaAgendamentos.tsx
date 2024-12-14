@@ -1,6 +1,6 @@
 import { ListGroup } from 'react-bootstrap';
-import { FaFilter, FaPencilAlt, FaSearch, FaSearchPlus } from 'react-icons/fa'; // Ícones
-import './styles/ListaAgendamento.css'; // Para customizações adicionais do CSS
+import { FaFilter, FaPencilAlt, FaSearch, FaSearchPlus } from 'react-icons/fa';
+import './styles/ListaAgendamento.css';
 
 export default function ListaAgendamentos() {
   return (

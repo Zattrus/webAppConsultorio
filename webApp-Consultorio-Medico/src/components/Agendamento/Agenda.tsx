@@ -1,8 +1,7 @@
 import { ListGroup } from 'react-bootstrap';
-import './styles/Agenda.css'; // Supondo que você tenha um arquivo CSS para estilização
+import './styles/Agenda.css';
 
 export default function Agenda() {
-  // Defina os horários de 08:00 até 17:30
   const times = [
     "08:00", "08:30", "09:00", "09:30",
     "10:00", "10:30", "11:00", "11:30",
