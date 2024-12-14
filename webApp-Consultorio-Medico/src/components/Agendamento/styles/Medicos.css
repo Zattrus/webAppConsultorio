@@ -1,0 +1,66 @@
+.container-medicos {
+  background-color: #f8f9fa;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-top: 23px;
+}
+
+.doctors-section {
+  margin-bottom: 1.5rem;
+  margin-right: auto;
+}
+
+.doctor-avatar {
+  width: 40px;
+  height: 40px;
+}
+
+.placeholder-text {
+  height: 10px;
+  background-color: #ddd;
+  border-radius: 5px;
+}
+
+.calendar-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.calendar-section {
+  margin-top: 100px;
+}
+
+.calendar-header h5 {
+  font-weight: bold;
+}
+
+.calendar-table {
+  border-collapse: collapse;
+}
+
+.calendar-table th,
+.calendar-table td {
+  width: 14.2%;
+  height: 50px;
+  border: 1px solid #e0e0e0;
+}
+
+.calendar-table td {
+  vertical-align: middle;
+  border: 1px solid #e0e0e0;
+}
+
+.bg-danger {
+  background-color: rgb(53, 120, 220) !important;
+}
+
+.text-light {
+  color: #fff !important;
+}
+
+.list-medicos {
+  max-height: 270px;
+  overflow-y: auto;
+  margin-top: 15px;
+}

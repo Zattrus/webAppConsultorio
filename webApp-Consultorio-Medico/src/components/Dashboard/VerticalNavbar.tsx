@@ -7,7 +7,7 @@ export default function VerticalNavbar() {
   return (
     <div className="vertical-navbar">
       <Nav className="flex-column">
-        <Link to="/dashboard" className="nav-item">
+        <Link to="/" className="nav-item">
           <FaTachometerAlt /> Dashboard
         </Link>
         <Link to="/agendamentos" className="nav-item">

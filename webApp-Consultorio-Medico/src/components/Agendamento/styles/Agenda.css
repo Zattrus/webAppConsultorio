@@ -1,0 +1,58 @@
+.schedule-container {
+  width: 100%;
+  height: 755px;
+  background-color: #f8f9fa;
+  border-radius: 8px;
+  padding: 10px 15px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.schedule-item {
+  display: flex;
+  align-items: center;
+  padding: 5px 0;
+  border-bottom: 1px solid #ddd;
+}
+
+.list-agendas {
+  height: 700px;
+  width: 100%;
+  overflow-y: auto;
+}
+
+.time {
+  font-weight: bold;
+  margin-right: 10px;
+  width: 50px;
+}
+
+.content-box {
+  height: 30px;
+  background-color: #e9ecef;
+  border-radius: 5px;
+}
+
+.icons i {
+  font-size: 18px;
+  color: #6c757d;
+  cursor: pointer;
+}
+
+.icons i:hover {
+  color: #007bff;
+}
+
+.icons .bi-plus-circle {
+  font-size: 20px;
+}
+
+.icons {
+  display: flex;
+  align-items: center;
+}
+
+.icons .btn {
+  cursor: pointer;
+  padding: 5px 10px;
+  margin-right: 5px;
+}

@@ -8,14 +8,14 @@
 }
 
 .calendar .btn-nav {
-  color:rgb(0, 0, 0);
+  color: rgb(0, 0, 0);
   border: none !important;
   cursor: pointer;
   font-size: 16px;
 }
 
 .calendar .btn-nav:hover {
-  background-color:rgb(206, 206, 206);
+  background-color: rgb(206, 206, 206);
 }
 
 .calendar .d-flex {
@@ -60,7 +60,7 @@
 }
 
 .contacts-list {
-  max-height: 200px; /* Defina a altura máxima desejada */
+  max-height: 200px;
   overflow-y: auto;
 }
 
